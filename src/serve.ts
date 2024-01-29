@@ -3,10 +3,12 @@ import { knex } from './dataBase'
 
 const app = fastify()
 
-app.get('/', async () => {
-  const test = await knex('sqlite_schema').select('*')
+app.get('/hello', async () => {
+  const transactions = await knex('transactions')
+    .where('amount', 1000)
+    .select('*')
 
-  return test
+  return transactions
 })
 
 app
