@@ -2,7 +2,7 @@ node_modules
 package.json
 pnpm-lock.yaml
 tsconfig.json
-temp/app.db
+dataBase/*.db
 .env
 .env.test
 ```
