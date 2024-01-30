@@ -4,4 +4,5 @@ pnpm-lock.yaml
 tsconfig.json
 temp/app.db
 .env
+.env.test
 ```

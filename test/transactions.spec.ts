@@ -1,7 +1,7 @@
-import { beforeAll, afterAll, describe, it, expect } from 'vitest'
+import { beforeAll, afterAll, describe, it, expect, beforeEach } from 'vitest'
+import { execSync } from 'node:child_process'
 import Request from 'supertest'
 import { app } from '../src/app'
-import { string } from 'zod'
 
 describe('transactions routes', () => {
   beforeAll(async () => {
@@ -10,6 +10,11 @@ describe('transactions routes', () => {
 
   afterAll(async () => {
     await app.close()
+  })
+
+  beforeEach(() => {
+    execSync('pnpm run knex migrate:rollback --all')
+    execSync('pnpm run knex migrate:latest')
   })
 
   it('user can create a new transactions ', async () => {
