@@ -4,7 +4,7 @@
 [ZOD__BADGE]:https://img.shields.io/badge/Zod-3E67B1.svg?style=for-the-badge&logo=Zod&logoColor=white
 [KNEX__BADGE]:https://img.shields.io/badge/knex-2D3748.svg?style=for-the-badge&logo=knex&logoColor=white
 
-<h1 align="center" style="font-weight: bold;">API de Controle financeiro 💻</h1> 
+<h1 align="center" style="font-weight: bold;">API de Controle de transações 💻</h1> 
 
 <div align="center">
 
@@ -23,7 +23,7 @@
 </p>
 
 <p align="start" >
-    <b>A API de controle financeiro é uma interface de programação desenvolvida para simplificar a gestão e o monitoramento eficaz de transações financeiras. essa API oferece recursos fundamentais, incluindo o registro preciso de despesas e receitas, categorização automática de transações, geração de relatórios detalhados e atualização em tempo real de saldos.
+    <b>A API de controle de transações é uma interface de programação desenvolvida para simplificar a gestão e o monitoramento eficaz de transações financeiras. essa API oferece recursos fundamentais, incluindo o registro preciso de despesas e receitas, categorização automática de transações, geração de relatórios detalhados e atualização em tempo real de saldos.
     </b>
 </p>
 
