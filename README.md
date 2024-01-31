@@ -2,7 +2,7 @@
 [FASTIFY__BADGE]: https://img.shields.io/badge/fastify-005CFE?style=for-the-badge&logo=fastify
 [NODE__BADGE]:https://img.shields.io/badge/Node.js-339933.svg?style=for-the-badge&logo=nodedotjs&logoColor=white
 [ZOD__BADGE]:https://img.shields.io/badge/Zod-3E67B1.svg?style=for-the-badge&logo=Zod&logoColor=white
-[KNEX__BADGE]:https://img.shields.io/badge/knex-2D3748.svg?style=for-the-badge&logo=knex&logoColor=white
+[KNEX__BADGE]:https://img.shields.io/badge/Knex.js-D26B38.svg?style=for-the-badge&logo=knexdotjs&logoColor=white
 
 <h1 align="center" style="font-weight: bold;">API de Controle de transações 💻</h1> 
 
